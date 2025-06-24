@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  }
+}
+
+// ssh a2eb586d06b4@a2eb586d06b4.15d1fd9c.alx-cod.online
+// password: 066a96f2fe5c771d31de
