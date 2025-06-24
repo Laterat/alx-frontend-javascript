@@ -47,3 +47,14 @@ function createEmployee(salary: number | string) {
         return new Director();
     }
 }
+
+function isDirector(employee : DirectorInterface | TeacherInterface): employee is DirectorInterface {
+    return (employee as DirectorInterface).workDirectorTasks !== undefined;
+}
+
+function executeWork(employee: DirectorInterface | TeacherInterface): string {
+    if (isDirector(employee)) {
+        return employee.workDirectorTasks();
+    }
+    return employee.workTeacherTasks();
+}
