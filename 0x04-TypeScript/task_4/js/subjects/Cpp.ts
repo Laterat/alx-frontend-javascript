@@ -13,7 +13,9 @@ namespace Subjects {
             }
 
            getAvailableTeacher(): string {
-             if(this.teacher && this.teacher.experienceTeachingC !== undefined && this.teacher.experienceTeachingC > 0) {
+             if(this.teacher &&
+               this.teacher.experienceTeachingC !== undefined &&
+                this.teacher.experienceTeachingC > 0) {
                      return `Available Teacher: ${this.teacher.firstName}`;
                   }
                   else{

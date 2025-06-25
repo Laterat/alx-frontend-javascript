@@ -1,6 +1,4 @@
 
- // If the file is 'Teacher.ts' in the parent directory
-
 
 /// <reference path="Teacher.ts" />
 

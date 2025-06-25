@@ -4,7 +4,7 @@
 
 namespace Subjects {
     export interface Teacher{
-        exprienceTeachingJava?: number;
+        experienceTeachingJava?: number;
     }
 
     export class Java extends Subject {
@@ -12,8 +12,8 @@ namespace Subjects {
             return 'Here is the list of requirements for Java';
         }
 
-        getAvailable(): string{
-            if(this.teacher &&this.teacher.experienceTeachingC !== undefined&& this.teacher.experienceTeachingC>0){
+        getAvailableTeacher(): string{
+            if(this.teacher &&this.teacher.experienceTeachingJava !== undefined&& this.teacher.experienceTeachingJava>0){
                 return `Available Teacher: ${this.teacher.firstName}`;
             }
             else{
