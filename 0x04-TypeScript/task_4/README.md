@@ -7,7 +7,9 @@ This project uses TypeScript namespaces to define:
 - Methods to get requirements and available teacher info
 
 ## How to run
- After cloning, run:
+
+After cloning, run:
+
 1. Run `npm install` to install dependencies
 2. Run `npx tsc` to compile TypeScript files
 3. Run `node js/main.js` to see output in the console
