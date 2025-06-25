@@ -17,11 +17,19 @@ After cloning, run:
 ## Output example
 
 C++
+
 Here is the list of requirements for Cpp
+
 Available Teacher: Guillaume
+
 Java
+
 Here is the list of requirements for Java
+
 No available teacher
+
 React
+
 Here is the list of requirements for React
+
 No available teacher
